@@ -1,5 +1,7 @@
 # Detecting Navigation Changes
 
+This repository demonstrates **one** possible method for detecting navigation changes from an OpenFin View
+
 ## How to use
 
 - clone the repository
@@ -9,7 +11,7 @@
 ## Demonstration Steps / Expected behavior
 
 1. Two devtools windows will open upon starting the application
-2. With a url of `http://localhost:5555/platform-window.html`, corresponding with the platform's defaultWindow. 
+2. With a url of `http://localhost:5555/platform-window.html`, corresponding with the platform's defaultWindow.
     1. This devtools window should have a log statement reading
   `ORIGINAL URL http://localhost:5555/navigation-changed.html`
 3. With a url of `http://localhost:5555/navigation-changed.html` corresponding with the existing view.
