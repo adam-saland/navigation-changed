@@ -38,7 +38,6 @@ class LeftMenu extends HTMLElement {
             {
                 url: "http://localhost:5555/navigation-changed.html",
                 printName: "Navigation Changed",
-                // preloadScripts: [{url: 'http://localhost:5555/js/navigation-listener.js'}],
                 processAffinity: 'ps_1'
             }
         ];
